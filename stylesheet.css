@@ -84,6 +84,10 @@ a {
   font-size: 14px;
 }
 
+p {
+  text-align: justify;
+}
+
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
@@ -110,14 +114,14 @@ h2 {
 }
 
 .one {
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
   position: relative;
 }
 
 .two {
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
   position: absolute;
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
@@ -137,6 +141,7 @@ span.highlight {
 .colored-box {
     color: black;
     padding: 20px;
-    display: inline-block;
+    display: block;
+    width: 75%;
     border-radius: 10px;
 }
